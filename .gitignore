@@ -1,0 +1,33 @@
+# DVC-tracked data (DVC will update this automatically)
+/models/
+/data/
+!/*.dvc
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env/
+env/
+.venv/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Others
+*.bak
+*.tmp
